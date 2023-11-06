@@ -1,0 +1,111 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0;
+    align-items: center;
+    flex: auto;
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    color: white;
+    padding: 32px;  
+    text-align: center;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size:24px
+}
+
+
+ul{
+    margin:0;
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a{
+    color: #e5e7eb;
+    font-size:18px;
+    text-decoration: none;
+}
+
+
+.first,.second,.third,.fourth{
+    display: flex;
+    padding: 100px;
+    align-self: center;
+    justify-content: center;
+}
+
+.first-profile{
+    width: 50%;
+    height: 100%;
+}
+
+#profile_ronnie{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img{
+    border-radius: 20px;
+}
+
+button{
+    background-color: #3882F6;
+}
+
+.first,
+footer{
+    background-color: #1F2937;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.first-container>p{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.second>p{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.third{
+    background-color: #e5e7eb;
+}
+
+.third>em{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
