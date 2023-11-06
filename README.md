@@ -1,0 +1,1 @@
+This project will be completed till i fully understand how to use flex-box and other property in CSS. this is based on the Odin-project but entire idea or skills are all what i learned myself. feel free to look at and if it has something wrong, make sure that i know that. thank you a lot.
