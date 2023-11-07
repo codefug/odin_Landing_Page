@@ -1,5 +1,6 @@
 html{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+    min-width: 720px;
 }
 body{
     display: flex;
@@ -18,11 +19,13 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 16px;
+    padding: 50px 150px;
 }
 
-.logo, ul{
-    padding: 0 100px;
+.background{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
 }
 
 main{
@@ -60,23 +63,26 @@ a{
 
 .first,.second,.third,.fourth{
     display: flex;
-    padding: 100px;
-    justify-content: space-between;
+    padding: 50px 150px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* first content has two div, and the size of them is equal. */
+.first{
+    border: 1px solid white;
+    min-height: 350px;
+    flex-wrap: wrap;
 }
 
 .first-container{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    flex:1 0 auto;
+    width: 600px;
 }
 
-.first-profile{
-    flex: 1 0 auto;
-    background-image: url("https://julienquaglierini.com/wp-content/uploads/2019/07/coleman-ronnie.png.webp");
-    background-size:cover;
+img#Ronnie_Coleman{
+    width: auto;
+    max-height: 300px;
+    object-fit:fill;
     border: 1px solid white;
     border-radius: 20px;
 }
