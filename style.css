@@ -1,7 +1,16 @@
+/* pre-setting*/
+
+button{
+    background-color: #3882F6;
+}
+
+/* total html setting*/
+
 html{
     font-family: 'Roboto', sans-serif;  
     min-width: 720px;
 }
+
 body{
     display: flex;
     flex-direction: column;
@@ -10,34 +19,22 @@ body{
     margin:0;
 }
 
-.header, footer{
-    margin: 0;
-    padding: 0;
+/*header setting*/
+
+.background{
+    padding: 50px 200px;
+    text-align: center;
+}
+
+.black-background{
+    background-color: #1F2937;
+    color: white;
+    padding: 30px 200px;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
-    padding: 50px 150px;
-}
-
-.background{
-    display: flex;
-    justify-content: center;
-    background-color: #1F2937;
-}
-
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-}
-
-footer{
-    color: white;
-    padding: 32px;  
-    text-align: center;
 }
 
 .logo{
@@ -46,7 +43,6 @@ footer{
     font-weight: 600;
 }
 
-
 ul{
     margin:0;
     display: flex;
@@ -54,33 +50,35 @@ ul{
     gap: 16px;
 }
 
-a{
+li a{
     color: #e5e7eb;
     font-size:18px;
     text-decoration: none;
 }
 
+/*first setting*/
 
-.first,.second,.third,.fourth{
-    display: flex;
-    padding: 50px 150px;
-    justify-content: center;
-    overflow: hidden;
-}
-
-/* first content has two div, and the size of them is equal. */
 .first{
-    border: 1px solid white;
-    min-height: 350px;
+    display: flex;
+    min-height: 300px;
+    min-width: 500px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .first-container{
-    width: 600px;
+    max-width: 600px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    text-align: left;
+}
+
+.first-profile{
+    max-width: 800px;
 }
 
 img#Ronnie_Coleman{
-    width: auto;
     max-height: 300px;
     object-fit:fill;
     border: 1px solid white;
@@ -91,48 +89,62 @@ img{
     border-radius: 20px;
 }
 
-button{
-    background-color: #3882F6;
-}
-
-.first,
-footer{
-    background-color: #1F2937;
-}
-
 h1{
-    margin: 0;
-    padding: 0;
+    margin:0;
     color: #F9FAF8;
     font-size: 48px;
     font-weight:bolder;
 }
 
-.first-container>p{
-    margin: 0;
-    padding: 0;
-    color: white;
+.play-store-button{
+    color:white;
+    font-weight: 600;
+    font-size: 14px;
+    padding:10px 30px;
+    border-radius: 15px;
 }
+
+/*second setting*/
 
 .second{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
 }
 
+.second-information{
+    color: black;
+    max-width: 900px;
+}
+
+.second-profile{
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.profile{
+    width: 200px;
+    height: 200px;
+}
+
+.profile img{
+    width:75%;
+    height:75%;
+    object-fit: fill;
+}
+
+/*third setting*/
+
+
+
+/*
 .second>p{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
 }
-
-.second-container{
-    display: flex;
-    gap: 40px;
-}
-
-
 
 .third{
     background-color: #e5e7eb;
@@ -143,3 +155,10 @@ h1{
     color: #1F2937;
     font-weight: 300;
 }
+
+.third{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+} 
+*/
